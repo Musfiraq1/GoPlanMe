@@ -65,6 +65,7 @@
   gap: 60px;
   background-color: #7F56D90A;
   padding-top: 78px;
+
 }
 .headings{
   width: 400px;
@@ -72,7 +73,7 @@
   font-size: 50px;
   line-height: 78px;
   color: #6c769e;
-  margin-top: 50px;
+  margin-top: 60px;
   
 }
 .heading1{
@@ -106,9 +107,58 @@
 }
 .main-button3{
   width: 150px;
-  height: 64px;
+  height: 90px;
   border-radius: 00px 10px 10px 0px ;
   background-color: #6B759D;
   color: white;
   border: 0px;
+}
+.card-section{
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  background-color:#eee8fa;
+  padding-top: 200px;
+}
+.section1{
+  width: 220px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid #FFFFFF33;
+  text-align: center;
+  padding-top: 50px;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border:1px solid white;
+  position: relative;
+  
+}
+.section-img{
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #eee8fa;
+  top: -70px;
+  left: 50px;
+  align-items: center;
+  width: 128px;
+  height: 128px;
+  z-index: 10;
+}
+.paragraph2{
+  width: 180px;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.paragraph3{
+  padding-top: 30px;
+  text-align: center;
+  width: 200px;
+  font-weight: 600;
+  font-size: 18px;
+  padding-left: 10px;
 }
