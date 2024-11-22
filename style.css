@@ -100,14 +100,16 @@
   border-radius: 10px 0px 0px 10px ;
 }
 .main-button2{
+  margin-top: 50px;
   width: 150px;
   height: 64px;
   border:1px solid #EBEBEB;
   background-color: white;
 }
 .main-button3{
+  margin-top: 50px;
   width: 150px;
-  height: 90px;
+  height: 64px;
   border-radius: 00px 10px 10px 0px ;
   background-color: #6B759D;
   color: white;
@@ -131,7 +133,7 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border:1px solid white;
   position: relative;
-  
+  padding-bottom: 30px;
 }
 .section-img{
   width: fit-content;
@@ -161,4 +163,124 @@
   font-weight: 600;
   font-size: 18px;
   padding-left: 10px;
+}
+.main-div2{
+  background-color: #EEE8FA;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.time-box{
+  width: 1169px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  z-index: 10;
+}
+.sub-box{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.time1{
+  color: #D02467;
+  font-size: 72px;
+  font-weight: 700;
+}
+.time2{
+  color: #F52D3A;
+  font-size: 72px;
+  font-weight: 700;
+}
+.time3{
+  color: #FE672E;
+  font-size: 72px;
+  font-weight: 700;
+}
+.time4{
+  color: #FEBE26;
+  font-size: 72px;
+  font-weight: 700;
+}
+.time-parah{
+  font-size: 16px;
+  font-weight: 600;
+  color: #626974;
+  text-align: center;
+}
+.border{
+  border-left: 1px solid #EAEAEA;
+  height: 90px;
+}
+.time-heading{
+  padding-top: 50px;
+  font-size: 36px;
+  font-weight: 600;
+  width: 400px;
+  color: #3D424D;
+}
+.button4{
+  margin-top: 30px;
+  background-color: #6B759D;
+  width: 138px;
+  height: 50px;
+  border-radius: 100px;
+  border:1px solid #6B759D;
+  color: white;
+}
+.img2{
+  position: relative;
+  top: 165px;
+  background-color:#EEE8FA;
+  width: 100%;
+}
+.main-div3{
+  margin-top: 100px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 51px;
+}
+.heading2{
+  font-size: 46px;
+  font-weight: 700;
+  color: #0A0C2C;
+  padding-top: 50px;
+  line-height: 56px;
+}
+.img3{
+  padding-top: 60px;
+}
+.paragraph4{
+  font-weight: 400;
+  font-size: 16px;
+  color: #585C67;
+  line-height: 26px;
+  width: 450px;
+}
+.paragraph5{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #171B26;
+}
+.paragraph6{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #585C67;
+  width: 400px;
+}
+
+
+.sub-div1{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
 }
