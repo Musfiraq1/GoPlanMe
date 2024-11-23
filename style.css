@@ -78,6 +78,10 @@
 
 }
 
+.img1 {
+  display: block;
+}
+
 .headings {
   width: 400px;
   font-weight: 800;
@@ -110,12 +114,14 @@
   height: 50px;
   border: 1px solid lightgray;
   border-radius: 10px 0px 0px 10px;
+  margin-top: 50px;
 }
 
 .drop-down2 {
   width: 150px;
   height: 50px;
   border: 1px solid lightgray;
+  margin-top: 50px;
 }
 
 .dropdown-text {
@@ -136,6 +142,7 @@
   background-color: #6B759D;
   color: white;
   border: 0px;
+  margin-top: 50px;
 }
 
 .card-section {
@@ -507,26 +514,66 @@
   .main-div1 {
     flex-direction: column;
     width: 100%;
+    /* padding-right: 50px; */
+  }
+
+  .img1 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .headings {
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+
+  .paragraph1 {
+    width: 400px;
+    font-size: 12px;
+    margin-left: 5%;
+    margin-right: 5%; 
+    line-height: 15px;
+  }
+
+  .drop-down {
+    margin-left: 5%;
+  }
+  .main-button3{
+    margin-right: 5%;
   }
 
   .card-section {
     flex-wrap: wrap;
-    width: 500px;
+    justify-content: center;
+    gap: 30px;
   }
 
   .section1 {
     margin-top: 80px;
+    width: 170px;
+    height: 70px;
+    margin-left: 5%;
+    margin-right: 10%;
   }
 
-  .paragraph1 {
-    width: 535px;
+  .section-img {
+    width: 70px;
+    height: 70px;
+    bottom: 0px;
+    top: -30px;
   }
 
-  .main-button3 {
-    margin-top: 0px;
-
+  .paragraph2 {
+    font-weight: 600;
+    font-size: 12px;
+    width: 140px;
   }
 
+  .paragraph3 {
+    font-weight: 600;
+    font-size: 12px;  
+    width: 150px;
+  }
   .time1 {
     font-size: 20px;
     font-weight: 700;
@@ -552,51 +599,60 @@
   }
 
   .time-heading {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 600;
     width: 200px;
   }
 
   .time-box {
-    width: 550px;
+width: 90%;
     position: absolute;
     z-index: 10;
-    
+
   }
-  .img2{
-   margin-top: 80px;
+
+  .img2 {
+    margin-top: 80px;
   }
 
   .time-img {
-    width: 4px;
-    height: 20px;
+    width: 3px;
+    height: 10px;
   }
-  .main-div3{
+
+  .main-div3 {
     flex-direction: column;
   }
-  .main-div5{
+
+  .main-div5 {
     width: 550px;
   }
-.sub-div2{
-  flex-wrap: wrap;
-  width: 600px;
-}
-.sub-div3{
-  width: 100%;
-}
-.paragraph62{
-  width: 300px;
-}
-.heading4{
-  font-size: 30px;
-  padding-top: 30px;
-  line-height: 10px;
-}
-.input{
-  width: 100px;
-}
-.footer{
-  flex-direction: column;
-  align-items: center;
-}
+
+  .sub-div2 {
+    flex-wrap: wrap;
+    width: 600px;
+  }
+
+  .sub-div3 {
+    width: 100%;
+  }
+
+  .paragraph62 {
+    width: 300px;
+  }
+
+  .heading4 {
+    font-size: 30px;
+    padding-top: 30px;
+    line-height: 10px;
+  }
+
+  .input {
+    width: 100px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
 }
