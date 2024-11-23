@@ -11,6 +11,7 @@
 <body>
   <nav class="nav-main">
     <img class="nav-img" src="./images/img1.png" alt="">
+    <img class="nav-img2" src="./images/icon6.png" alt="">
     <div class="nav-link">
       <a class="link-decoration" href="">Planning tools</a>
       <a class="link-decoration" href="">Events type</a>
@@ -28,13 +29,17 @@
     <div class="main-div1">
       <div>
         <h1 class="headings">Event planning
-          <span class="heading1">made easier</span><span class="heading2"> for everyone</span>
+          <span class="heading1">made easier</span><span class="green-color"> for everyone</span>
         </h1>
         <p class="paragraph1">Go Plan Me will provide guidance and vendors for a variety of event types including
           funerals, birthday parties, family reunions, baby showers, and many more!</p>
-        <div>
-          <button class="main-button1"><img src="./images/icon1.png" alt=""> Event type</button>
-          <button class="main-button2"> <img src="./images/icon2.png" alt="">Location</button>
+        <div class="dropdown-div">
+          <select  class="drop-down" name="event type" id="event type">event type 
+            <option value="" disabled selected>event type  <img src="images/icon1.png" alt=""></option>
+          </select>
+          <select class="drop-down2" name="" id="">
+            <option value="" disabled selected>location</option>
+          </select>
           <button class="main-button3">Start planning</button>
         </div>
       </div>
@@ -70,19 +75,19 @@
       <div class="time-box">
         <div class="sub-box">
           <div>
-            <h1 class="time1">26 <img src="./images/icon3.png" alt=""></h1>
+            <h1 class="time1">26 <img class="time-img" src="./images/icon3.png" alt=""></h1>
             <p class="time-parah">days</p>
           </div>
           <div>
-            <h1 class="time2">10 <img src="./images/icon3.png" alt=""></h1>
+            <h1 class="time2">10 <img class="time-img" src="./images/icon3.png" alt=""></h1>
             <p class="time-parah">hours</p>
           </div>
           <div>
-            <h1 class="time3">36 <img src="./images/icon3.png" alt=""></h1>
+            <h1 class="time3">36 <img class="time-img" src="./images/icon3.png" alt=""></h1>
             <p class="time-parah">minutes</p>
           </div>
           <div>
-            <h1 class="time4">56 <img src="./images/icon3.png" alt=""></h1>
+            <h1 class="time4">56 <img class="time-img" src="./images/icon3.png" alt=""></h1>
             <p class="time-parah">seconds</p>
           </div>
         </div>
@@ -189,6 +194,7 @@
       <p class="paragraph8">Copyright © 2023 Go Plan Me. All Rights Reserved </p>
     </div>
   </footer>
+  
 </body>
 
 </html>
