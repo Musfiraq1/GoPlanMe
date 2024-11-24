@@ -670,7 +670,7 @@
   }
 
   .event-img {
-    width: 155px;
+    width: 120px;
     height: 180px;
   }
 
@@ -680,7 +680,7 @@
     flex-wrap: wrap;
     width: 350px;
     padding-top: 20px;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 
   }
 
