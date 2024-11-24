@@ -147,8 +147,8 @@
 
 .card-section {
   display: flex;
-  justify-content: space-evenly;
-  gap: 23px;
+  justify-content: center;
+  gap: 50px;
   background-color: #eee8fa;
   padding-top: 200px;
   padding-bottom: 100px;
@@ -300,6 +300,10 @@
   gap: 51px;
 }
 
+.div-3img {
+  display: block;
+}
+
 .heading2 {
   font-size: 46px;
   font-weight: 700;
@@ -335,6 +339,9 @@
   width: 400px;
 }
 
+.event-img {
+  display: block;
+}
 
 .sub-div1 {
   padding-top: 30px;
@@ -438,6 +445,10 @@
 
 }
 
+.footer-div {
+  margin: auto;
+}
+
 .paragraph7 {
   font-size: 16px;
   font-weight: 400;
@@ -514,7 +525,8 @@
   .main-div1 {
     flex-direction: column;
     width: 100%;
-    /* padding-right: 50px; */
+    padding-top: 0px;
+
   }
 
   .img1 {
@@ -525,20 +537,24 @@
   .headings {
     margin-left: 5%;
     margin-right: 10%;
+    font-size: 30px;
+    width: 250px;
+    line-height: 40px;
   }
 
   .paragraph1 {
-    width: 400px;
-    font-size: 12px;
+    width: 300px;
+    font-size: 10px;
     margin-left: 5%;
-    margin-right: 5%; 
+    margin-right: 5%;
     line-height: 15px;
   }
 
   .drop-down {
     margin-left: 5%;
   }
-  .main-button3{
+
+  .main-button3 {
     margin-right: 5%;
   }
 
@@ -550,52 +566,53 @@
 
   .section1 {
     margin-top: 80px;
-    width: 170px;
+    width: 150px;
     height: 70px;
     margin-left: 5%;
     margin-right: 10%;
   }
 
   .section-img {
-    width: 70px;
-    height: 70px;
-    bottom: 0px;
-    top: -30px;
+    width: 80px;
+    height: 80px;
+    top: -40px;
+    left: 35px;
   }
 
   .paragraph2 {
     font-weight: 600;
     font-size: 12px;
-    width: 140px;
+    width: 130px;
   }
 
   .paragraph3 {
     font-weight: 600;
-    font-size: 12px;  
-    width: 150px;
+    font-size: 12px;
+    width: 130px;
   }
+
   .time1 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
   }
 
   .time2 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
   }
 
   .time3 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
   }
 
   .time4 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
   }
 
   .time-parah {
-    font-size: 10px;
+    font-size: 5px;
   }
 
   .time-heading {
@@ -605,10 +622,12 @@
   }
 
   .time-box {
-width: 90%;
+    width: 90%;
     position: absolute;
     z-index: 10;
-
+    gap: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .img2 {
@@ -621,20 +640,70 @@ width: 90%;
   }
 
   .main-div3 {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
-  .main-div5 {
-    width: 550px;
+  .div-3img {
+    width: 30px;
+    height: 30px;
   }
+
+  .heading2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .paragraph4 {
+    font-size: 12px;
+    line-height: 15px;
+    width: 350px;
+  }
+
+  .main-div3 {
+    margin-left: 5%;
+  }
+
+  .paragraph6 {
+    width: 220px;
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .event-img {
+    width: 155px;
+    height: 180px;
+  }
+
+
 
   .sub-div2 {
     flex-wrap: wrap;
-    width: 600px;
+    width: 350px;
+    padding-top: 20px;
+    margin-left: 10%;
+
+  }
+
+  .heading3 {
+    margin-left: 5%;
+    font-size: 25px;
+    line-height: 31px;
+    padding-bottom: 0px;
   }
 
   .sub-div3 {
-    width: 100%;
+    width: 85%;
+  }
+
+  .paragraph6 {
+    width: 220px;
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .paragraph5 {
+    font-size: 12px;
+    line-height: 15px;
   }
 
   .paragraph62 {
@@ -648,7 +717,20 @@ width: 90%;
   }
 
   .input {
-    width: 100px;
+    width: 25%;
+  }
+
+  .heading5 {
+    text-align: center;
+
+  }
+
+  .li1 {
+    text-align: center;
+  }
+
+  .footer-div {
+    align-items: center;
   }
 
   .footer {
